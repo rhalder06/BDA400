@@ -1,0 +1,54 @@
+-----------------
+Module 1:
+-----------------
+1) Hadoop is designed for Online Transactional Processing. True or False?
+False
+
+2) When is Hadoop useful for an application?
+When work can be parallelized 
+
+3) With the help of InfoSphere Streams, Hadoop can be used with data-at-rest as well as data-in-motion. True or false?
+True
+
+-----------------
+Module 2:
+-----------------
+1) Network bandwidth between any two nodes in the same rack is greater than bandwidth between two nodes on different racks. True or False?
+True
+
+2) Hadoop works best on a large data set. True or False?
+True
+
+3) HDFS is a fully POSIX compliant file system. True or False?
+False
+
+-----------------
+Module 3:
+-----------------
+1) You can add or remove nodes from the open source Apache Ambari console. True or False?
+True
+
+2) It is recommended that you start all of the services in Ambari in order to speed up communications. True or False?
+False
+
+3) To remove a node using Ambari, you must first remove all of the services using that node. True or False?
+True
+
+-----------------
+Module 4:
+-----------------
+1) The output of the shuffle operation goes into the mapper before going into the reducer. True or False?
+False
+
+2) What is true about Pig and Hive in relation to the Hadoop ecosystem?
+Fewer lines of code are required compared to a Java program 
+
+3) Which of the following tools is designed to move data to and from a relational database?
+Sqoop
+
+
+-----------------
+Final Exam
+-----------------
+
+

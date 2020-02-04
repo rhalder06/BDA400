@@ -1,0 +1,147 @@
+--------------------
+Module 1:
+--------------------
+
+1) What gives Spark its speed advantage for complex applications?
+Spark makes extensive use of in-memory computations
+
+2) For what purpose would an Engineer use Spark? Select all that apply.
+Programming with Spark’s API
+Developing a data processing system
+Tuning an application for a business use case
+
+3) Which of the following statements are true of the Resilient Distributed Dataset (RDD)? Select all that apply.
+RDDs allow Spark to reconstruct transformations
+RDDs only add a small amount of code due to tight integration
+RDD is a distributed collection of elements parallelized across the cluster.
+
+--------------------
+Module 2:
+--------------------
+
+1) Which of the following methods can be used to create a Resilient Distributed Dataset (RDD)? Select all that apply.
+Parallelizing an existing Spark collection
+Referencing a Hadoop-supported dataset
+Transforming an existing RDD to form a new one 
+
+2) What happens when an action is executed?
+All of the above
+
+3) Which of the following statements is true of RDD persistence? Select all that apply.
+Persistence through caching provides fault tolerance
+Future actions can be performed significantly faster
+
+--------------------
+Module 3:
+--------------------
+
+1) What is SparkContext?
+An object that represents the connection to a Spark cluster
+
+2) Which of the following methods can be used to pass functions to Spark? Select all that apply.
+Passing by reference
+Static methods in a global singleton
+Anonymous function syntax
+
+3) Which of the following is a main component of a Spark application’s source code?
+All of the above 
+
+--------------------
+Module 4:
+--------------------
+
+1) Which of the following is NOT an example of a Spark library?
+Hive
+
+2) From which of the following sources can Spark Streaming receive data? Select all that apply.
+Kafka
+HDFS
+
+3) In Spark Streaming, processing begins immediately when an element of the application is executed. True or false?
+False
+
+--------------------
+Module 5:
+--------------------
+
+1) Which of the following is a main component of a Spark cluster? Select all that apply.
+Driver Program
+Cluster Manager 
+Worker node 
+
+2) What are the main locations for Spark configuration? Select all that apply.
+The SparkConf object
+Environment variables
+Logging properties 
+
+3) Which of the following techniques can improve Spark performance? Select all that apply.
+Memory Tuning
+Data Serialization 
+Using Broadcast variables 
+
+--------------------
+Final Exam:
+--------------------
+1) Which of the following is a type of Spark RDD operation? Select all that apply.
+Action
+Transformation 
+
+2) Spark must be installed and run on top of a Hadoop cluster. True or false
+False
+
+3) Which of the following operations will work improperly when using a Combiner?
+Average
+
+4) Spark supports which of the following libraries?
+All of the above
+
+5) Spark supports which of the following programming languages?
+Scala, Python, Java, R
+
+6) A transformation is evaluated immediately. True or false?
+False
+
+7) Which storage level does the cache() function use?
+MEMORY_ONLY 
+
+8) Which of the following statements does NOT describe accumulators?
+They are read-only
+
+9) You must explicitly initialize the SparkContext when creating a Spark application. True or false?
+True 
+
+10) The "local" parameter can be used to specify the number of cores to use for the application. True or false?
+True
+
+11) Spark applications can ONLY be packaged using one, specific build tool. True or false?
+False
+
+12) Which of the following parameters of the “spark-submit” script determine where the application will run?
+Master
+
+13) Which of the following is NOT supported as a cluster manager?
+Helix
+
+14) Spark SQL allows relational queries to be expressed in which of the following?
+Scala, SQL, and HiveQL
+
+15) Spark Streaming processes live streaming data in real-time. True or false?
+False
+
+16) The MLlib library contains which of the following algorithms?
+All of the above
+
+17) What is the purpose of the GraphX library?
+To perform graph-parallel computations 
+
+18) Which list describes the correct order of precedence for Spark configuration, from highest to lowest?
+Properties set on SparkConf, flags passed to spark-submit, values in spark-defaults.conf
+
+19) Spark monitoring can be performed with external tools. True or false?
+True
+
+20) Which serialization libraries are supported in Spark? Select all that apply.
+Java Serialization
+Kyro Serialization 
+
+
