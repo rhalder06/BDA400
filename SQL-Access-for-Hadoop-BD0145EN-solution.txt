@@ -1,0 +1,80 @@
+-------------------
+Module 1:
+-------------------
+1) Which Big SQL architecture component is responsible for accepting queries?
+Master Node
+
+2) Big SQL differs from Big SQL v1 in which of the following ways? Select all that apply.
+Big SQL does not have support for HBase 
+Big SQL requires the HADOOP keyword for table creation
+Big SQL v1 treats single and double quotes as the same
+
+3) In Big SQL, what is the term for the default directory in the distributed file system (DFS) where tables are stored?
+Warehouse
+
+-------------------
+Module 2:
+-------------------
+1) What are the main data type categories in Big SQL? Select all that apply.
+SQL
+Declared
+Hive
+
+2) When creating a table, which keyword is used to specify the DFS directory for storing data files?
+Location
+
+3) Which human-readable Big SQL file format uses a character to separate column values?
+Delimited
+
+-------------------
+Final Exam
+-------------------
+1) In order to use Big SQL, you need to learn several new query languages. True or false?
+False
+
+2) Which component serves as the main interface between Big SQL and Hadoop?
+Scheduler
+
+3) Officially, there are two different releases of Big SQL. True or false?
+False
+
+4) Which of the following statements is true of a partitioned table?
+Query predicates can be used to avoid scanning every partition
+
+5) Which of the following statements is true of JSqsh?
+All of the above
+
+6) Which of the following statements is true of the SQL data type?
+The database engine supports the SQL data type
+
+7) In Big SQL, the STRING and VARCHAR types are equivalent and can be used interchangeably. True or false?
+False
+
+8) What is the default Big SQL schema?
+Your login name
+
+9) Which of the following statements are true of Parquet files? Select all that apply.
+Parquet files are supported by the native I/O engine
+Parquet files provide a columnar storage format 
+Parquet is a high-performance file format
+
+10) Which of the following statements are true of ORC files? Select all that apply.
+Individual columns can be retrieved efficiently
+ORC files can be efficiently compressed 
+
+11) Which of the following statements is NOT true of the Native I/O processing engine?
+The native engine supports the delimited file format, among others
+
+12) Which of the following statements about Big SQL are true? Select all that apply.
+Big SQL comes with comprehensive SQL support
+Big SQL provides a powerful SQL query rewriter
+Big SQL supports all the standard join operations
+
+13) Which keyword indicates that the data in a table is not managed by the database manager?
+EXTERNAL
+
+14) The Avro file format is more efficient than Parquet and ORC. True or false?
+False
+
+15) Which statement accurately characterizes the Big SQL data types?
+ORC files can be efficiently compressed
