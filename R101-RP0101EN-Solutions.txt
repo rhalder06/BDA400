@@ -1,0 +1,111 @@
+-----------------
+Module 1:
+-----------------
+1) Vectors in R can be which of the following types?
+All of the above
+
+2) What would be the output in R given: c(1,2) == 1 ?
+TRUE FALSE
+
+3) How would you retrieve the items larger than 5 (as in 15 and 10) from the following vector:
+costs[costs > 5]
+
+-----------------
+Module 2:
+-----------------
+1) Give a 5 x 5 matrix object, movies, how would you retrieve the bottom-left item?
+movies[5,1]
+
+2) Below we create a list for a student and his info. Select all the correct options can we use to retrieve his courses? john <- list(“studentid“ = 9, “age” = 18, “courses” = c(“Data Science 101”, “Data Science Methodology”))
+All of the above options are correct
+
+3) Select the correct code from the following options which produces the following result?
+data.frame("student" = c("john", "mary"), "id" = c(1, 2))
+
+-----------------
+Module 3:
+-----------------
+1) What output will the following produce?
+"Bring an umbrella"
+
+2) Which of the following statements are true?
+- Using return() when writing a function is optional when you just want the result of the last line in the function to be the output of the function.
+- Using return() is useful when you want to produce outputs based on different conditions.
+
+3) Which of the following would you use to check the class of the object, myobject?
+class(myobject)
+
+-----------------
+Module 4:
+-----------------
+1) What does CSV stand for, when talking about tabular data files?
+Comma-separated values 
+
+2) Which of the following are true?
+- read.csv() can be used to read in CSV files
+- You need to install libraries, such as the “readxl” library, to read Excel files into R
+- You can load specified datasets or list the available datasets using data()
+- You can write to a variety of filetypes, including .txt, .csv, .xls, .xlsx, and .Rdata. 
+
+3) To get the number of characters in a character vector, char_vec, what function can you use?
+nchar(char_vec)
+
+-----------------
+Module 5:
+-----------------
+1) How would you combine the individual words from the vector, hw, into a single string, "Hello World"? hw <- c("Hello", "World")
+paste(hw, collapse = " ")
+
+2) How would you convert the character string "2020-01-01" into a Date object in R?
+as.Date("2020-01-01")
+
+3) What does the following regular expression pattern mean? ".*@.+"
+Find matches containing an @ symbol where there is zero or more characters before the @ symbol, and at least one character after the @ symbol.
+
+-----------------
+Final Exam
+-----------------
+1) Which of the following will return TRUE?
+None of the above
+
+2) Which of the following will print out the numbers 1, 2, and 3 only?
+for(num in c(1,2,3)) {print(num)}
+
+3) How would you get the average of: ratings <- c(8.0, 8.5, 9.0)
+mean(ratings)
+
+4) How would you convert the following character vector into an integer vector? my_vector <- c("1992", "2016", "2012", "2018")
+as.integer(my_vector)
+
+5) If you know an error might occur, what can you do?
+All of the above.
+
+6) You have a file, “november.csv”, in the directory, “/Documents/expenses/“. How do you read this file into R?
+read.csv(“/Documents/expenses/november.csv”)
+
+7) You opened a dataset and noticed a row showing Leonardo DiCaprio’s birthday as 153360000. What does it mean?
+153360000 is a UNIX timestamp; it is the number of seconds since 1970-01-01 00:00:00
+
+8) The following code will produce which of the following outputs? grep("milk.+", c("cow's milk", "milkshake", "milky", "cat", "milk1", "milk"), value = T)
+"milkshake" "milky" "milk1"
+
+9) You want to split a full name, “John Doe”, into a vector containing two elements: “John” and “Doe”. How would you do so? fullname <- “John Doe”
+unlist(strsplit(fullname, “ “))
+
+10) In R, x <- 1 is the same as x == 1
+False
+
+11) Look at the code below. How many levels does the factor, drinks, have? drinks <- factor(c(“tea”, “coffee”, “soft drink”, “tea”, “hot chocolate”, “hot chocolate”, “coffee”))
+None of the above
+
+12) To remove an existing column, “firstname”, from a data frame named “people”, which of the following code should you use?
+people$firstname <- NULL
+
+13) To retrieve the third row of an array named “myarray", which of the following code should you use?
+myarray[3,]
+
+14) How would you get the average of the third column of a data frame named “df”?
+mean(df[,3])
+
+15) What is the expected output of the following script?
+102 
