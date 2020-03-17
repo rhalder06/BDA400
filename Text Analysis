@@ -1,0 +1,104 @@
+Review Question 1
+-----------------
+
+IMPORTANT THIS IS WRONG!!!
+1. Your client would like to know how its advertising campaign impressed customers. Which IE task would provide this data?
+Ans: Event Extraction
+
+2. Which extraction phase can turn a dictionary match of a common first name plus an adjacent regular expression into a “potential person name” entity?
+Ans: Named Entity Recognition 
+
+3. Consider a set of news articles that contains 20 mentions of person names. From this source, an extractor extracts 15 entities, 3 of which are incorrect. What are the Precision (P) and Recall (R) values?
+Ans: P = 0.80, R = 0.60 
+
+Review Question 2
+-----------------
+
+1. Which of the following poses huge demands on the IE engine?
+Ans: All of the above 
+
+IMPORTANT THIS IS WRONG!!!
+2. A typical IE grammar-based workflow:
+Ans: Targets the step closest to the nature of the rule applied. 
+
+3. We can overcome IE performance limitations by:
+Ans: Separating extractor semantics from execution strategy. 
+
+Review Question 3
+-----------------
+
+1. What outputs do extractors generate in SystemT?
+Ans: Annotations
+
+IMPORTANT THIS IS WRONG!!!
+2. An output refiner helps you to:
+Ans: Union multiple extractors
+
+3. By selecting the Mapping Table checkbox in the Dictionary extractor, you can:
+Ans: All of the above
+
+Review Question 4
+-----------------
+
+1. Which of the following statements describes AQL?
+Ans: All of the above
+
+2. What are the main advantages of SystemT’s approach towards Information Extraction?
+Ans: D. A and B 
+
+3. Which of the following files can be part of an AQL module?
+Ans: All of the above
+
+Review Question 5
+-----------------
+
+1. Which factor is essential for the Union All statement to work?
+Ans: The schemas of the tuples should be same. 
+
+2. Which of the following options is a valid consolidate policy?
+Ans: ContainsButNotEqual
+
+3. When is the Minus statement useful?
+Ans: When you want to subtract a set of tuples from another set of tuples 
+
+
+Review Question 6
+-----------------
+
+1. Which type of text can be extracted using the Detag statement?
+Ans: Semi-structured text 
+
+2. When should you use a standard tokenizer?
+Ans: When token boundaries are defined by punctuation and whitespace.
+
+3. Which best practices should you use when developing an AQL module?
+Ans: All of the above
+
+
+Review Question 7
+-----------------
+
+1. Which of the following leads to mistakes when two rules match the same region of text?
+Ans: Rigid matching priority 
+
+2. Which of the following strategies can overcome lossy sequencing?
+Ans: Use grammar rules that operate on graphs rather than sequences of annotations. 
+
+3. In which stage of the SystemT optimizer do you merge block plans into a single operator graph?
+Ans: Post-processor 
+
+Review Question 8
+-----------------
+
+DID NOT GET THIS RIGHT!!!
+1. Why is it that the first document in a collection is often at the top of the AQL Profiler’s “hot” documents view?
+Ans: NOTTT  The optimizer is trying to produce plans that are sensitive to each input document. ORR
+     SystemT sorts documents by length for processing, so the first document is the longest.
+     
+2. Which of the following is NOT a best practice for writing AQL?
+Ans: Always ignore throughput levels when designing extractors. 
+
+NONE OF THEM ARE CORRECT!!!!
+3. Why is it necessary to be selective about performance tuning?
+Ans:  A. It might adversely affect code readability 
+         A and B. 
